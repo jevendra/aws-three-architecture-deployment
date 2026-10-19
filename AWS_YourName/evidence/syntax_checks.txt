@@ -1,0 +1,4 @@
+$ python -m py_compile app/backend/app.py
+PASS
+$ node --check app/frontend/server.js
+PASS

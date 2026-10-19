@@ -1,0 +1,14 @@
+node_modules/
+**/node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.env
+.vscode/
+.idea/
+.DS_Store
+*.pem
+*.key
+.aws/
+terraform.tfstate*

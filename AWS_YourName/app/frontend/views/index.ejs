@@ -1,0 +1,5 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>AWS Flask + Express Demo</title><link rel="stylesheet" href="/style.css"></head>
+<body><main class="card"><span class="eyebrow">AWS DEPLOYMENT PROJECT</span><h1>Contact form</h1><p class="muted">Express frontend sends your form to the Flask backend.</p>
+<% if (error) { %><div class="alert" role="alert"><%= error %></div><% } %>
+<form method="post" action="/submit"><label for="name">Name</label><input id="name" name="name" maxlength="100" required value="<%= formData.name || '' %>"><label for="email">Email</label><input id="email" name="email" type="email" maxlength="254" required value="<%= formData.email || '' %>"><label for="message">Message</label><textarea id="message" name="message" rows="5" maxlength="2000" required><%= formData.message || '' %></textarea><button type="submit">Submit</button></form><p class="muted">Frontend: Express · Backend: Flask</p></main></body></html>

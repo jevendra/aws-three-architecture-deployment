@@ -1,0 +1,7 @@
+Application URL: NOT DEPLOYED — fill in the actual live ALB/public URL after deployment.
+GitHub repository URL: NOT CREATED BY THIS PACKAGE — paste your real repository URL.
+AWS Region: fill in deployed region.
+ECR backend image URI: fill after pushing to ECR.
+ECR frontend image URI: fill after pushing to ECR.
+
+Do not submit this file with placeholders.
